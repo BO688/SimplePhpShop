@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<script src="../js/jquery.min.js"></script>
+<title>加入我们</title>
+	<style>
+		@keyframes color{
+
+0% {color:rgb(100,100,100);
+transform :rotateX(0deg);}
+			25% {color:rgb(100,200,100);}
+50% {color:rgb(200,100,100);
+}
+			75% {color:rgb(100,200,200);}
+100% {color:rgb(200,100,200);
+transform:rotateX(360deg);}
+}
+		
+		
+			
+		
+		h1,footer{
+			animation-delay: 3s;
+			animation: color 6s infinite;
+			text-align: center;
+/*
+			background-image: url(../images/gb.jpg);
+			background-repeat: no-repeat;
+*/
+			
+		}
+	</style>
+</head>
+
+<body onResize="change()" >
+	<img src="../images/gb.jpg" alt="" style="top: 0;
+    left: 0; position: fixed;z-index: -1516">
+	<h1>
+	<p>创建这个商店并不代表到时候可以营业，只是一个练习
+	</p>
+	<p>如果有兴趣可以加一下我的qq交流一下哈哈QQ：1049294616</p></h1>
+	<footer style="text-align: center"><hr style="width: -webkit-fill-available;">  @year:2019.6-10.-@author:bo</footer>
+	  
+</body> 
+	<script>
+		$(document).ready(function(){
+			$("img").attr("height",screen.availHeight);
+			$("img").attr("width",screen.availWidth);
+		}
+						 );
+		function change(){
+			$("img").attr("height",screen.availHeight);
+			$("img").attr("width",screen.availWidth);
+			
+		}
+	
+	
+	</script>
+</html>

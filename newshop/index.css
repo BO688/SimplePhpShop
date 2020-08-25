@@ -1,0 +1,186 @@
+/* CSS Document */
+@keyframes change {
+ 0% {
+color:red;
+}
+ 25% {
+color:blue;
+}
+ 50% {
+color:cornflowerblue
+}
+ 75% {
+color:goldenrod
+}
+ 100% {
+color: tan
+}
+}
+.colorful {
+	animation: change 5s infinite;
+	text-align: center;
+	border: 1px;
+	
+	background: rgba(0,0,100,0.3);
+	
+}
+body {
+	background: rgba(132,34,100,0.1);
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+th div{
+			padding: 50px;
+			display: inline-block
+		}
+a {
+	
+
+	text-decoration: none;
+}
+body h3 a:hover{
+	color:#7393E0;
+		
+	
+
+}
+
+h3 a:first-child{
+	color: brown;
+	cursor: pointer;
+}
+h3 a:last-child{
+	color: goldenrod
+}
+th#shopshow  a div img{
+	width: 100px;
+	height: 100px;
+}
+h3 img,.fix a img,div.search img {
+	width: 40px;
+	height: 40px;
+}
+.fix {
+	position: fixed;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	left: 20px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+img.picture {
+	width: 200px;
+	height: 200px;
+	align-content: center;
+}
+
+
+
+	
+	table tr.right{
+		border: 3px;
+		background-color:#F2D27F;
+		text-align: center;
+	font-size: 1.5em;
+	
+}
+#shopshow a{
+	text-decoration: none;
+	
+	color: lightseagreen;
+}
+
+#shopshow a:hover{
+	
+	
+	color:orange;
+}
+table tr.right:hover{
+	border-style: outset;
+	background-color: cadetblue;
+}
+table tr.right a{
+	animation: change 4s infinite;
+}
+#bottom {
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: inline;
+	background: rgba(100,100,200,0);
+	margin: 0 auto;
+}
+#bottom a {
+	color: cadetblue;
+    font-size: 1.5em;
+	position: relative;
+	letter-spacing: 10px;
+	border-color: coral;
+	background: #F4E456;
+}
+help {
+	position: relative;
+}
+
+.search {
+	font-size: 2em;
+	text-align: center;
+	height: 100px;
+}
+.sk {
+	border-style: inset;
+	width: 300px;
+	height: 30px;
+	border: 1px;
+}
+#up{
+	font-size: 2em;
+	text-align: right;
+	
+	border-style: outset;
+	top:25%;
+	left: 0;
+	right: 0;
+	display: none;
+	z-index: 100;
+	background:rgba(200,200,100,1);
+	position: fixed;
+	margin: 0 auto;
+	
+}
+#bg{
+	
+	background-color:rgba(151,150,137,0.80);
+	display: none;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 90;
+}
+h3 a:hover{
+	border-style: outset;
+}
+ul a:hover{
+	border-style: outset;
+}
+#bottom a:hover{
+	border-style: outset;
+}
+#right a:hover{
+	border-style: outset;
+}
+h3 a:active{
+	border-style: inset;
+}
+ul a:active{
+	border-style: inset;
+}
+#bottom a:active{
+	border-style: inset;
+}
+#right a:active{
+	border-style: inset;
+}

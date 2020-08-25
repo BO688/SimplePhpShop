@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+     *{
+            margin: 0%;
+            padding: 0%;
+        }
+        html,body{
+            height:100%;
+            width: 100%;
+            min-width: 700px;
+        }
+        .header{
+            background-color:rgba(244,265,153,0.50);
+            height: 58px;
+        }a
+		{
+			text-decoration: none;
+			
+		}
+        .inner_c{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .header .logo{
+            float: left;
+        }
+        .header .nav{
+            float: left;
+        }
+        .header .nav ul{
+            list-style: none;
+        }
+        .header .nav ul li{
+            float: left;
+            height: 58px;
+            width: 100px;
+            border-left: 1px solid #252947;
+        }
+        .header .nav ul li .shouye{
+            background-color: #252947;
+        }
+        .header .nav ul li .kefu{
+            border-right: #252947;
+        }
+        .header .nav ul li a{
+            display: block;
+            width: 100px;
+            height: 58px;
+            text-align: center;
+            line-height: 58px;
+            color: #818496;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .header .nav ul li a:hover/*设置鼠标位于该区域时的效果*/{
+            background-color: #252947;
+            color: #E2E4ED;
+            font-weight: bold;
+        }
+        .header .wdzh {
+            float: left;
+            padding-left: 48px;
+            padding-top: 12px;
+        }
+        .header .wdzh a{
+            display: block;/*产生块*/
+            text-decoration: none;
+            text-align: center;
+            line-height: 34px;
+            color: white;
+            width: 100px;
+            height: 34px;
+            font-size: 14px;
+            background-color: #388774;
+            border-radius: 4px;/*做圆角*/
+        }
+        .header .wdzh a:hover{
+            background-color: orange;
+        }
+        #container{
+            padding-left: 300px;
+            padding-right: 300px;
+            height: 1000px；
+        }
+        #container .column{
+            float: left;
+            box-sizing: border-box;
+            padding: 1rem;
+        }
+        #center{
+            width: 100%;
+            background-color: rgb(185, 196, 192);
+        }
+        #left{
+            width: 300px;
+            margin-left: -100%;
+            position: relative;
+            right: 300px;
+            background-color: rgb(255, 255, 255);
+        }
+        #right{
+            width: 300px;
+            margin-right: -300px;
+            background-color: rgb(255, 255, 255);
+        }
+        .footer{
+			
+			
+            background-color:rgba(114,165,173,1.00);
+            height: 10%;
+            clear: both;
+        }
+        .footer .inner_c .left{
+            float:left;
+        }
+        .footer .inner_c .left{
+            text-align: center;
+            text-decoration: none;
+            line-height: 90px;
+            font-size: 14px;
+            color: #5f6e68;
+        }
+        .footer .inner_c .right{
+            float:right;
+        }
+        .footer .inner_c .right p{
+            line-height: 90px;
+            font-size: 14px;
+            color: #5f6e68;
+            background-repeat: no-repeat;
+        }
+        
+        </style>
+</head>
+    <body>
+    <div class="header">
+       <div class="inner_c">
+            <div class="logo">
+               <img src="" alt="" /> 
+            </div>
+
+            <div class="nav">
+               <ul>
+                  <li class="shouye">
+                   <a href="#">返回首页</a>
+                  </li>
+                  <li>
+                   <a href="#">商品分类</a>
+                  </li>
+                  <li class="chushou">
+                   <a href="#">出售物品</a>
+                  </li>
+                  <li>
+                   <a href="#">购物车</a>
+                  </li>
+                  <li class="kefu">
+                   <a href="#">联系客服</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="wdzh">
+               <a href="#">我的账户</a>
+            </div>
+         </div>
+    </div>
+    <div id="container">
+        <div id="center" class="column">商品信息</div>
+        <div id="left" class="column"></div>
+        <div id="right" class="column"></div>
+    </div>
+    <div class="footer">
+        <div class="inner_c">
+            <div class="left">
+                <a href="#">网站详情</a>
+                <a href="#">关于二手</a>
+            </div>
+            <div class="right">
+                <p>
+                   来着韩旭DD的创作~
+                </p>
+                
+            </div>
+        </div>
+    </div>
+		<footer style="text-align: center"><hr style="width: -webkit-fill-available;">  @year:2019.6-10.-@author:bo</footer>
+    </body>

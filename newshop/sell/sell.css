@@ -1,0 +1,53 @@
+/* CSS Document */
+@keyframes change {
+ 0% {
+color:red;
+}
+ 25% {
+color:blue;
+}
+ 50% {
+color:yellow
+}
+ 75% {
+color:goldenrod
+}
+ 100% {
+rgba(0,0,100,0.3)
+}
+}
+body{
+	background: #F5BDBE;
+	font-family:  'Comic Sans MS', cursive, sans-serif;
+}
+header{
+	animation: change 5s infinite;
+}
+#main{
+	vertical-align: middle;
+	border-color: cadetblue;
+	border: solid;
+	border-style: outset;
+	text-align: center;
+	background: #FAEE86;
+}
+#selltext{
+	word-break: normal;
+	width: 300px;
+	
+	height: 100px;
+	overflow: hidden;
+	
+}
+textarea{
+	    padding: 10px;
+    margin: 5px;
+}
+input{
+	
+	padding: 3px;
+}
+span{
+	color: red;
+	font-size: 1.2em;
+}
